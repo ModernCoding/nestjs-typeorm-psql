@@ -12,3 +12,5 @@ Install
 
 `nest g module database`
 `nest g resource items`
+
+Create file typeOrm.config.ts
