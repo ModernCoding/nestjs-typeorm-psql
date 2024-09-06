@@ -5,3 +5,7 @@
 `nest new nestjs-typeorm-psql`
 
 When asked, choose pnpm
+
+Install
+`pnpm i @nestjs/typeorm typeorm pg`
+`pnpm i @nestjs/config`
