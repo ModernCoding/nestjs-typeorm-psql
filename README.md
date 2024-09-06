@@ -14,3 +14,8 @@ Install
 `nest g resource items`
 
 Create file typeOrm.config.ts
+Create migrations folder
+Add typeorm scripts in package.json
+
+Migration files:
+`npm run typeorm:create-migration --name=Items`
