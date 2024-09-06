@@ -19,3 +19,4 @@ Add typeorm scripts in package.json
 
 Migration files:
 `npm run typeorm:create-migration --name=Items`
+`pnpm typeorm:run-migrations`

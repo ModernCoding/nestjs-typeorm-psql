@@ -14,7 +14,7 @@ export class Items1725627526555 implements MigrationInterface {
               },
               {
                   name: "name",
-                  type: "string",
+                  type: "varchar",
               },
               {
                   name: "public",
@@ -27,6 +27,7 @@ export class Items1725627526555 implements MigrationInterface {
   }
 
   public async down(queryRunner: QueryRunner): Promise<void> {
+    await queryRunner.dropTable("items")
   }
 
 }
