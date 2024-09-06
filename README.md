@@ -9,3 +9,6 @@ When asked, choose pnpm
 Install
 `pnpm i @nestjs/typeorm typeorm pg`
 `pnpm i @nestjs/config`
+
+`nest g module database`
+`nest g resource items`
